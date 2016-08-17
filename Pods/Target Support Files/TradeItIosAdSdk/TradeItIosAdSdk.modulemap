@@ -1,0 +1,6 @@
+framework module TradeItIosAdSdk {
+  umbrella header "TradeItIosAdSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

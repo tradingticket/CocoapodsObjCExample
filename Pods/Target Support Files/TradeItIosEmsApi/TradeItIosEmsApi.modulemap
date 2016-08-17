@@ -1,0 +1,6 @@
+framework module TradeItIosEmsApi {
+  umbrella header "TradeItIosEmsApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

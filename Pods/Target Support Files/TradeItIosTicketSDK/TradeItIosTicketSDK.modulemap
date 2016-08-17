@@ -1,0 +1,6 @@
+framework module TradeItIosTicketSDK {
+  umbrella header "TradeItIosTicketSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

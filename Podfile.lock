@@ -1,0 +1,18 @@
+PODS:
+  - TradeItIosAdSdk (0.1.4)
+  - TradeItIosEmsApi (0.1.1)
+  - TradeItIosTicketSDK (0.1.4):
+    - TradeItIosAdSdk (~> 0.1.3)
+    - TradeItIosEmsApi (~> 0.1.1)
+
+DEPENDENCIES:
+  - TradeItIosTicketSDK (~> 0.1.1)
+
+SPEC CHECKSUMS:
+  TradeItIosAdSdk: d426b60f52ba701fe0443c54e45ed30b521bcef5
+  TradeItIosEmsApi: eb9138a744c6cb83b7a9e7a6682aa1e7be732d1d
+  TradeItIosTicketSDK: aa62dff6cea85cb6c4cf6604df54181f4fca23fb
+
+PODFILE CHECKSUM: 5a19ca95f9807878bd245a6a79ad6ffa25f9c483
+
+COCOAPODS: 1.0.1

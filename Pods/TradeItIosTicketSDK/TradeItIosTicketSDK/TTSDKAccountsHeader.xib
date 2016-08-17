@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bXi-IG-CNB" customClass="TTSDKAccountsHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL ACCOUNTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psd-0I-jeZ" customClass="TTSDKSmallLabel">
+                    <rect key="frame" x="110" y="12" width="100" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kc1-zb-XGO" customClass="TTSDKLabel">
+                    <rect key="frame" x="160" y="31" width="0.0" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="UhH-vh-6pU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U2-uF-Sei" userLabel="Accounts Title" customClass="TTSDKLabel">
+                    <rect key="frame" x="14" y="113" width="125" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="lK4-gr-ExA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-Jn-Aqs" userLabel="Accounts Header">
+                    <rect key="frame" x="10" y="145" width="300" height="20"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acct name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pT2-FJ-HCO" customClass="TTSDKLabel">
+                            <rect key="frame" x="4" y="3" width="56" height="14"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Value" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQk-RU-9I9" customClass="TTSDKLabel">
+                            <rect key="frame" x="0.0" y="3" width="195" height="14"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buying Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSA-NB-mwv" customClass="TTSDKLabel">
+                            <rect key="frame" x="225" y="3" width="71" height="14"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="kQk-RU-9I9" firstAttribute="leading" secondItem="MKR-Jn-Aqs" secondAttribute="leading" id="1HZ-t2-XCZ"/>
+                        <constraint firstItem="TSA-NB-mwv" firstAttribute="centerY" secondItem="MKR-Jn-Aqs" secondAttribute="centerY" id="Awh-c4-MIN"/>
+                        <constraint firstItem="pT2-FJ-HCO" firstAttribute="leading" secondItem="MKR-Jn-Aqs" secondAttribute="leading" constant="4" id="BcD-Zp-4ZN"/>
+                        <constraint firstItem="kQk-RU-9I9" firstAttribute="width" secondItem="MKR-Jn-Aqs" secondAttribute="width" multiplier="0.65" id="EQX-Vz-VdD"/>
+                        <constraint firstItem="pT2-FJ-HCO" firstAttribute="centerY" secondItem="MKR-Jn-Aqs" secondAttribute="centerY" id="LXJ-P6-FYk"/>
+                        <constraint firstAttribute="trailing" secondItem="TSA-NB-mwv" secondAttribute="trailing" constant="4" id="MIm-OU-W3P"/>
+                        <constraint firstItem="kQk-RU-9I9" firstAttribute="centerY" secondItem="MKR-Jn-Aqs" secondAttribute="centerY" id="OPc-cz-GTh"/>
+                        <constraint firstAttribute="height" constant="20" id="sG0-lI-36f"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqS-TC-kEl">
+                    <rect key="frame" x="211" y="114" width="95" height="30"/>
+                    <state key="normal" title="Edit Accounts">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kc1-zb-XGO" firstAttribute="centerX" secondItem="bXi-IG-CNB" secondAttribute="centerX" id="2Kj-nq-h6L"/>
+                <constraint firstAttribute="trailing" secondItem="uqS-TC-kEl" secondAttribute="trailing" constant="14" id="2Nj-Tw-0gx"/>
+                <constraint firstItem="Kc1-zb-XGO" firstAttribute="top" secondItem="Psd-0I-jeZ" secondAttribute="bottom" constant="3" id="Hzi-S7-ODN"/>
+                <constraint firstItem="MKR-Jn-Aqs" firstAttribute="top" secondItem="1U2-uF-Sei" secondAttribute="bottom" constant="5" id="TpJ-Nm-maI"/>
+                <constraint firstItem="MKR-Jn-Aqs" firstAttribute="leading" secondItem="bXi-IG-CNB" secondAttribute="leading" constant="10" id="Zdo-In-REh"/>
+                <constraint firstItem="1U2-uF-Sei" firstAttribute="leading" secondItem="bXi-IG-CNB" secondAttribute="leading" constant="14" id="aER-KB-ata"/>
+                <constraint firstAttribute="bottom" secondItem="MKR-Jn-Aqs" secondAttribute="bottom" id="b0h-SS-VRO"/>
+                <constraint firstItem="uqS-TC-kEl" firstAttribute="baseline" secondItem="1U2-uF-Sei" secondAttribute="baseline" id="drL-jq-5Rn"/>
+                <constraint firstItem="Psd-0I-jeZ" firstAttribute="top" secondItem="bXi-IG-CNB" secondAttribute="top" constant="12" id="gZw-Qf-dMi"/>
+                <constraint firstItem="Psd-0I-jeZ" firstAttribute="centerX" secondItem="bXi-IG-CNB" secondAttribute="centerX" id="jEb-ju-BJW"/>
+                <constraint firstAttribute="trailing" secondItem="MKR-Jn-Aqs" secondAttribute="trailing" constant="10" id="qP5-ve-RMD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="editAccountsButton" destination="uqS-TC-kEl" id="2Ex-Qi-F0Z"/>
+                <outlet property="header" destination="MKR-Jn-Aqs" id="LSw-fI-3zT"/>
+                <outlet property="totalPortfolioValueLabel" destination="Kc1-zb-XGO" id="bsT-bD-foa"/>
+            </connections>
+            <point key="canvasLocation" x="526" y="411.5"/>
+        </view>
+    </objects>
+</document>
